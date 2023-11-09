@@ -1,0 +1,10 @@
+.recipe-container {
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 10%;
+}

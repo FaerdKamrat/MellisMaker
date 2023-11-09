@@ -1,0 +1,47 @@
+.root-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.root-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 128px;
+}
+.root-button-svg {
+    width: 96px;
+    height: 96px;
+
+}
+.root-recipes-container {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1em;
+    column-gap: 5%;
+}
+.root-recipe-item {
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0 .5em;
+    padding: .5em;
+}
+.root-edit {
+    position: absolute;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 96px;
+    padding: 2%;
+}
+.root-edit-img {
+    width: 100%;    
+}
